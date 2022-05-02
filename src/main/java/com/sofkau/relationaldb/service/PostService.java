@@ -17,4 +17,5 @@ public interface PostService {
 
     List<Post> findAllPosts();
 
+    Post findById(Long id);
 }
